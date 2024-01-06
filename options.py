@@ -3,7 +3,7 @@ import os
 class Option:
 
     def __init__(self):
-        self.VIDEO_PATH = os.path.join("C:\\Users\\hamid\\Downloads","intersection.mp4")
+        self.VIDEO_PATH = os.path.join("C:\Downloads","intsect.mp4")
         self.MODEL_PATH = os.path.join('.','yolov8n.pt')
         self.TRACKERS = ['bytetrack.yaml','botsort.yaml']
         self.DELEGATE = 0
